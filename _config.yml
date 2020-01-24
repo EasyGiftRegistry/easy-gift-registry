@@ -2,4 +2,20 @@ permalink: pretty
 theme: jekyll_patternbot
 
 patternbot:
-  font_url: ""
+  title: "Easy Gift"
+  font_url: "https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500,500i,600,600i,700,700i,800,800i|Raleway:100,100i,200,300,300i,400,500,500i,600,600i,700,700i,800,800i&display=swap"
+  description: |
+    A web application that makes gifting and receiving easy.
+  rationales:
+    typefaces.primary: |
+      Playfair Display is our primary typeface for its classic quality as a serif font to represent our gifting web application. This serif is bold but delicate with clean lines and easy to read.
+    typefaces.secondary: |
+      Raleway is our secondary typeface for its readability and large x-height. Its versatility in weight translates across all web sizes. The typeface presents as friendly yet neutral in order to let the products and colours speak for the website.
+    colors.primary: |
+      The primary colour is vibrant, eye catching and a warm welcoming tone.
+    colors.secondary: |
+      The secondary colour is bold and contrasting against the primary colour.
+    colors.accent: |
+      The accent colour compliments both the primary and secondary colour while still providing contrast.
+    colors.neutral: |
+      The neutral colour is a light peach tone which allows the other colours to stand out against it.

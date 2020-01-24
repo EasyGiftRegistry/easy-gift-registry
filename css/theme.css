@@ -1,14 +1,69 @@
 :root {
-  --color-primary: ;
-  --color-primary-light: ;
-  --color-secondary: ;
-  --color-accent: ;
-  --color-neutral: ;
+  --color-primary: #F4727D;
+  --color-secondary: #6D5B81;
+  --color-accent: #C26B86;
+  --color-neutral: #FAB28B;
 
-  --font-primary: ;
-  --font-secondary: ;
+  --font-primary: 'Playfair Display', serif;
+  --font-secondary: 'Raleway', sans-serif;
+  --weight-extra-bold: 800;
+  --weight-bold: 700;
+  --weight-medium: 500;
+  --weight-regular: 400;
+  --weight-light: 300;
+  --weight-extra-light: 100;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+
+h1 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-bold);
+}
+
+h2 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-regular);
+}
+
+h3 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-medium);
+}
+
+h4 {
+  font-family: var(--font-primary);
+  font-weight: var(--weight-bold);
+}
+
+p {
+  font-family: var(--font-secondary);
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+mark {
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+}
+
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+  text-decoration: none;
 }
