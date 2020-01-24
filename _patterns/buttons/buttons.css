@@ -6,9 +6,9 @@
 }
 
 .btn-ghost {
-  background-color: var(--color-secondary);
+  background-color: var(--color-primary);
   color: #fff;
-  border: 5px solid var(--color-accent);
+  border: 5px solid var(--color-secondary);
   border-radius: 10px;
 }
 
@@ -26,7 +26,6 @@
 
 .btn-ghost:hover {
   background-color: #fff;
-  color: #000;
   border-color: var(--color-secondary);
 }
 
