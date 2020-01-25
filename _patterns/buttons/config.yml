@@ -6,7 +6,7 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      Basic buttons are the standard button of the brand. It should be used in almost anywhere that needs a call-to-action.
+      Basic buttons are the standard button for the brand. It should be used in almost anywhere that needs a call-to-action.
     fields:
       - name: url
         type: url
