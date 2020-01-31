@@ -13,10 +13,12 @@
   color: var(--color-accent);
   font-weight: 500;
 }
+
 .navigation a:hover {
   color: var(--color-secondary);
   font-weight: 800;
 }
+
 .site-name {
   font-weight: 100;
 }
@@ -26,10 +28,6 @@
   font-weight: 500;
 }
 
-.icon-link {
-  color: #fff;
-}
-
-.icon-link:hover {
-  color: var(--color-primary);
+.icon-search svg {
+  opacity: 30%;
 }
