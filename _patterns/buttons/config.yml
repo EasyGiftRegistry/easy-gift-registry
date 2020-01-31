@@ -1,0 +1,38 @@
+title: "Buttons"
+description: |
+  Buttons should be used in situations where a dramatic, obvious action is required. Try not to over use buttons because they should be the primary call-to-action for a screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      Basic buttons are the standard button for the brand. It should be used in almost anywhere that needs a call-to-action.
+    fields:
+      - name: url
+        type: url
+        example: "/profile/"
+      - name: text
+        type: string
+        example: "Add to List"
+  btn-ghost:
+    title: "Ghost"
+    description: |
+      Ghost buttons are buttons with a border. It is only used occasionally and whenever it is necessary.
+    fields:
+      - name: url
+        type: url
+        example: "/profile/"
+      - name: text
+        type: string
+        example: "Add to List"
+  btn-light:
+    title: "Light"
+    description: |
+      Light buttons use lighter colour than basic buttons. Use it when the basic buttons doesn't have enough contrast.
+    fields:
+      - name: url
+        type: url
+        example: "/profile/"
+      - name: text
+        type: string
+        example: "Add to List"
