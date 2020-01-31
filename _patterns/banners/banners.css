@@ -1,0 +1,25 @@
+.go-back {
+  top: 1em;
+  left: 1em;
+}
+
+.icon-label {
+  color: #fff;
+}
+
+.icon-label:hover {
+  color: #C26B86;
+}
+
+@media only-screen and (min-width: 38em)
+{
+  .banner-img {
+    position: relative;
+  }
+
+  .banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+}
