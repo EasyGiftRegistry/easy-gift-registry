@@ -1,0 +1,9 @@
+.card {
+  position: relative;
+}
+
+.card-img {
+  display: block;
+  width: 100%;
+  height: auto;
+}

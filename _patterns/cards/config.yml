@@ -1,0 +1,38 @@
+title: "Cards"
+description: |
+  Cards should be used to showcase images, call to actions and showcase information.
+
+patterns:
+  square-card:
+    fields:
+      - name: image
+        type: string
+        example: "1by1-placeholder-01.png"
+      - name: heading
+        type: string
+        example: "Theme"
+    title: "Square Card"
+    description: |
+      This type of card will be used in order to...
+  theme-card:
+    fields:
+      - name: image
+        type: string
+        example: "1by1-placeholder-01.png"
+      - name: heading
+        type: string
+        example: "Theme"
+    title: "Theme Card"
+    description: |
+      This type of card will be used in order to...
+  add-card:
+    fields:
+      - name: image
+        type: string
+        example: "1by1-placeholder-01.png"
+      - name: heading
+        type: string
+        example: "Theme"
+    title: "Add Card"
+    description: |
+      This type of card will be used in order to...
