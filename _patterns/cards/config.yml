@@ -1,6 +1,6 @@
 title: "Cards"
 description: |
-  Cards should be used to showcase images, call to actions and showcase information.
+  Cards should be used to showcase images, call to action and showcase information.
 
 patterns:
   square-card:
@@ -13,7 +13,7 @@ patterns:
         example: "Theme"
     title: "Square Card"
     description: |
-      This type of card will be used in order to...
+      This type of card will be used in order to show images with no option of adding the item to a registry. Typically this card will be used on the profile of a user, when they are viewing their current registries.
   theme-card:
     fields:
       - name: image
@@ -24,7 +24,7 @@ patterns:
         example: "Theme"
     title: "Theme Card"
     description: |
-      This type of card will be used in order to...
+      This type of card will be used in order to categorize a registry by theme. This will also be used to denote a category of items.
   add-card:
     fields:
       - name: image
@@ -35,4 +35,4 @@ patterns:
         example: "Theme"
     title: "Add Card"
     description: |
-      This type of card will be used in order to...
+      This type of card will be used when the user has the option to add the item to a registry. The addition symbol will act as a call to action for the user to add the item to their registry.
