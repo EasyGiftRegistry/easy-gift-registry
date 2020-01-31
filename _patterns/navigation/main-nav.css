@@ -1,0 +1,33 @@
+.navigation {
+  background-color: #eaeaea;
+  vertical-align: middle;
+  color: var(--color-accent);
+}
+
+.nav {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+.navigation a {
+  color: var(--color-accent);
+  font-weight: 500;
+}
+
+.navigation a:hover {
+  color: var(--color-secondary);
+  font-weight: 800;
+}
+
+.site-name {
+  font-weight: 100;
+}
+
+.search {
+  font-family: var(--font-secondary);
+  font-weight: 500;
+}
+
+.icon-search svg {
+  opacity: 30%;
+}
