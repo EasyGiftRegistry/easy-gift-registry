@@ -11,3 +11,8 @@
 .icon-numbers {
   color: var(--color-primary);
 }
+
+.name {
+  color: var(--color-primary);
+  font-family: var(--font-primary);
+}
