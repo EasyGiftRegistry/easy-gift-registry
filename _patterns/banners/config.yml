@@ -1,0 +1,21 @@
+title: "Banners"
+description: |
+Easy Gift web app has three kind of banners (main banner, product banner, and theme banner). The banners attract the customers with featured products or top selling product. In addition, it contains high quality images of a product or a theme.
+
+patterns:
+  main-banner:
+    title: "Main banner"
+    description: |
+      The main banner advertises the top selling products. This banner should only be used on the homepage.
+  product-banner:
+    title: "Product banner"
+    description: |
+      The product banner shows the current product of what the user is currently viewing. This banner should only be used on the product page.
+  theme-banner:
+    title: "Theme banner"
+    description: |
+      The theme banner contains an image of a theme. This banner should only be used when an user click a theme and land on the registry page.
+    fields:
+      - name: theme
+        type: string
+        example: "BIRTHDAY"
