@@ -31,3 +31,22 @@
 .icon-search svg {
   opacity: 30%;
 }
+
+.footer-header {
+  font-family: var(--font-primary);
+  font-weight: 500;
+}
+
+.footer-nav {
+  font-family: var(--font-secondary);
+  list-style-type: none;
+  content: none;
+}
+
+ul > li::before {
+  content: none;
+}
+
+.copyright {
+  font-weight: 300;
+}
