@@ -1,4 +1,9 @@
-.guest-border {
-  border: 3px solid var(--color-primary);
+.guest-box-1 {
+  background-color: var(--color-primary);
+  padding: 2em;
+}
+
+.guest-box-2 {
+  background-color: var(--color-accent);
   padding: 2em;
 }
