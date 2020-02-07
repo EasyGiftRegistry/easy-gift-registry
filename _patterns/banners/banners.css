@@ -1,0 +1,16 @@
+.go-back {
+  top: 1em;
+  left: 1em;
+}
+
+.theme-title {
+  color: #fff;
+}
+
+.icon-label {
+  color: #fff;
+}
+
+.icon-label:hover {
+  color: #C26B86;
+}
