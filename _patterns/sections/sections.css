@@ -1,0 +1,4 @@
+.guest-border {
+  border: 3px solid var(--color-primary);
+  padding: 2em;
+}

@@ -1,0 +1,16 @@
+title: "Sections"
+description: |
+
+
+patterns:
+  guest-names:
+    title: "Guest List Names"
+    description: |
+      The main banner advertises the top selling products. This banner should only be used on the homepage.
+    fields:
+      - name: name
+        type: string
+        example: "Zara Haas"
+      - name: email
+        type: string
+        example: "zhaas@gmail.com"
