@@ -6,7 +6,7 @@ patterns:
   guest-names:
     title: "Guest List Names"
     description: |
-      The main banner advertises the top selling products. This banner should only be used on the homepage.
+      Placeholder names for the guest list.
     fields:
       - name: name
         type: string
