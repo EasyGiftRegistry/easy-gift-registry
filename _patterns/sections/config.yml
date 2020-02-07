@@ -1,0 +1,16 @@
+title: "Sections"
+description: |
+
+
+patterns:
+  guest-names:
+    title: "Guest List Names"
+    description: |
+      Placeholder names for the guest list.
+    fields:
+      - name: name
+        type: string
+        example: "Zara Haas"
+      - name: email
+        type: string
+        example: "zhaas@gmail.com"
