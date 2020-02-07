@@ -1,0 +1,37 @@
+.section-scroller {
+  width: 100vw;
+  overflow-x: auto;
+}
+
+.scroller-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 400vw;
+}
+
+.scroller-item {
+  width: 50vw;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .scroller-item {
+    width: 33.3333vw;
+  }
+
+  .scroller-wrap {
+    width: 266.666vw;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .scroller-item {
+    width: 25vw;
+  }
+
+  .scroller-wrap {
+    width: 200vw;
+  }
+}
