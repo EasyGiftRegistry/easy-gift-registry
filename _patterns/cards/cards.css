@@ -11,3 +11,11 @@
 .icon-numbers {
   color: var(--color-primary);
 }
+
+.card-list {
+  font-family: var(--font-secondary);
+}
+
+.product-name {
+  font-weight: 800;
+}
