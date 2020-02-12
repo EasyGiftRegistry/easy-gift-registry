@@ -6,13 +6,15 @@ meta: A gift registry web application that makes giving and recieving gifts easy
 priority: 1.0
 ---
 
-**banner?**
-
+<header role="banner" id="home-banner">
+  {% pattern banners/main-banner %}
+</header>
+<main role="main" id="main">
+  {% pattern sections/theme-section %}
+  {% pattern sections/theme-section %}
+  {% pattern sections/theme-section %}
+  {% pattern sections/theme-section %}
+</main>
 <section>
-  {% pattern sections/theme-section %}
-  {% pattern sections/theme-section %}
-  {% pattern sections/theme-section %}
-  {% pattern sections/theme-section %}
+  {% pattern cards/instructional-card %}
 </section>
-
-{% pattern cards/instructional-card %}
