@@ -5,29 +5,15 @@
   <div class="section-scroller">
     <div class="scroller-wrap">
       <div class="scroller-item">
-        {% pattern cards/theme-card image="1by1-placeholder-01.png" heading="Theme" %}
+        {% pattern cards/theme-card image="1by1-placeholder-01.png" heading=include.theme_title %}
       </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
-      <div class="scroller-item">
-        {% pattern cards/add-card image="1by1-placeholder-01.png" heading="Theme" %}
-      </div>
+      {% for card in site.products %}
+        {% if card.theme==include.theme %}
+          <div class="scroller-item">
+            {% pattern cards/add-card image=card.image href=card.url %}
+          </div>
+        {% endif %}
+      {% endfor %}
     </div>
   </div>
 </div>

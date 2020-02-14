@@ -19,3 +19,6 @@ patternbot:
       The accent colour compliments both the primary and secondary colour while still providing contrast.
     colors.neutral: |
       The neutral colour is a light peach tone which allows the other colours to stand out against it.
+collections:
+  products:
+    output: true
