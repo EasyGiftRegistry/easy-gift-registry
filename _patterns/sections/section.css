@@ -1,3 +1,8 @@
+.section-scroller-chop {
+  overflow: hidden;
+  margin-bottom: -16px;
+}
+
 .section-scroller {
   width: 100vw;
   overflow-x: auto;
