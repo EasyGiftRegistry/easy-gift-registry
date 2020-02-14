@@ -3,17 +3,17 @@
     <img class="img-flex embed-item" src="/images/rec-placeholder.png" alt="">
   </div>
   <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island">
-    <h2 class="text-center product-name gutter-2">Handmade Chunky Knit Blanket</h2>
+    <h2 class="text-center product-name gutter-2">{{include.data.title}}</h2>
       <h3 class="push-none mega gutter-2">Details</h3>
-      <p class="gutter-2">Our signature fleece throw blanket is super soft and perfect for cold days. In lots of colors to suit any space, drape it on a chair, couch or at the foot of your bed. Great for travel, too!</p>
+      <p class="gutter-2">{{include.data.details}}</p>
       <h3 class="push-none mega gutter-2">Care</h3>
         <ul>
-          <li class="card-list gutter-2">100% knit</li>
-          <li class="card-list gutter-2">Spot clean</li>
-          <li class="card-list gutter-2">Dimensions: 60”l x 50”w</li>
+          {% for item in include.data.care %}
+          <li class="card-list gutter-2">{{item}}</li>
+          {% endfor %}
         </ul>
       <h3 class="push-none mega gutter-2">Price</h3>
-        <p class="gutter-2 push-2">$50.00</p>
+        <p class="gutter-2 push-2">{{include.data.price}}</p>
       <div class="text-center grid">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
           {% pattern buttons/basic url="/profile/" text="Add to Cart" %}
