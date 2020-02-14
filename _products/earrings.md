@@ -9,5 +9,5 @@ care:
   - "Keep away from moisture"
   - "Wipe after each wear"
 price: "$300.00"
-theme: "birthday"
+theme: "wedding"
 ---

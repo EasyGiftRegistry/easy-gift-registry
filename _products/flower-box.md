@@ -9,5 +9,5 @@ care:
   - "Keep near sunlight"
   - "Do not leave outside in cold temperatures"
 price: "$120.00"
-theme: "birthday"
+theme: "graduation"
 ---

@@ -9,5 +9,5 @@ care:
   - "Bring sun lotion"
   - "Pack your bathing suit"
 price: "$3000.00"
-theme: "birthday"
+theme: "graduation"
 ---

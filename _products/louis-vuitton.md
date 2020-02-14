@@ -9,5 +9,5 @@ care:
   - "Keep away from moisture"
   - "Clean professionally"
 price: "$1500.00"
-theme: "birthday"
+theme: "graduation"
 ---

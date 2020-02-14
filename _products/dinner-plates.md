@@ -9,5 +9,5 @@ care:
   - "Manually dry"
   - "Special Occasion"
 price: "$100.00"
-theme: "birthday"
+theme: "wedding"
 ---

@@ -9,5 +9,5 @@ care:
   - "100% porcelain"
   - "Stain resistant"
 price: "$20.00"
-theme: "birthday"
+theme: "wedding"
 ---

@@ -9,5 +9,5 @@ care:
   - "Keep away from moisture"
   - "Unplug when not in use"
 price: "$1050.00"
-theme: "birthday"
+theme: "graduation"
 ---

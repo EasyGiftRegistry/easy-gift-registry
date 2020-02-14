@@ -9,5 +9,5 @@ care:
   - "Pack essentials"
   - "Bring your neck pillow"
 price: "$1000.00"
-theme: "birthday"
+theme: "wedding"
 ---

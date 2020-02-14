@@ -9,5 +9,5 @@ care:
   - "Sing"
   - "Dance"
 price: "$850.00"
-theme: "birthday"
+theme: "graduation"
 ---
