@@ -3,16 +3,18 @@
     <svg><use xlink:href="/images/icons.svg#back-arrow"></use></svg>
   </i>
   <div class="section-scroller">
-    <div class="scroller-wrap">
+    {% assign theme_cards = site.products | where:"theme", include.theme %}
+    <div class="scroller-wrap" style="
+      --num-card-groups-small:{{theme_cards|size|plus:1.0|divided_by:2.0|ceil}};
+      --num-card-groups-med:{{theme_cards|size|plus:1.0|divided_by:3.0|ceil}};
+      --num-card-groups-large:{{theme_cards|size|plus:1.0|divided_by:4.0|ceil}};">
       <div class="scroller-item">
         {% pattern cards/theme-card image="1by1-placeholder-01.png" heading=include.theme_title %}
       </div>
-      {% for card in site.products %}
-        {% if card.theme==include.theme %}
-          <div class="scroller-item">
-            {% pattern cards/add-card image=card.image href=card.url %}
-          </div>
-        {% endif %}
+      {% for card in theme_cards %}
+        <div class="scroller-item">
+          {% pattern cards/add-card image=card.image href=card.url %}
+        </div>
       {% endfor %}
     </div>
   </div>

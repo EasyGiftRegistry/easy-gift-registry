@@ -1,11 +1,7 @@
 .card {
   position: relative;
-}
-
-.card-img {
-  display: block;
   width: 100%;
-  height: auto;
+  /* height: 400px; */
 }
 
 .icon-numbers {

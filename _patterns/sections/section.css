@@ -11,7 +11,7 @@
 .scroller-wrap {
   display: flex;
   flex-wrap: nowrap;
-  width: 400vw;
+  width: calc(100vw * var(--num-card-groups-small));
 }
 
 .scroller-item {
@@ -25,7 +25,7 @@
   }
 
   .scroller-wrap {
-    width: 266.666vw;
+    width: calc(100vw * var(--num-card-groups-med));
   }
 
 }
@@ -37,6 +37,6 @@
   }
 
   .scroller-wrap {
-    width: 200vw;
+    width: calc(100vw * var(--num-card-groups-large));
   }
 }
