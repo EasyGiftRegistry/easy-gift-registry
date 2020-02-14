@@ -9,5 +9,5 @@ care:
   - "Brush your teeth"
   - "Smile"
 price: "$1000.00"
-theme: "birthday"
+theme: "wedding"
 ---
