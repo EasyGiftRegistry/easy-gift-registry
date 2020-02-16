@@ -14,3 +14,23 @@ patterns:
       - name: email
         type: string
         example: "zhaas@gmail.com"
+  section-header:
+    title: "Section Header"
+    description: |
+      Used on the profile page of site, used to differentiate current registries.
+    fields:
+    - name: heading
+      type: string
+      example: "Birthday"
+  search-item:
+    title: "Search Item"
+    description: |
+      Used to collect cards for the search function of site.
+  profile-theme-section-birthday:
+    title: "Profile Registry: Birthday"
+    description: |
+      Used highlight birthday registry on the profile page.
+  profile-theme-section-grad:
+    title: "Profile Registry: Graduation"
+    description: |
+      Used highlight graduation registry on the profile page.
