@@ -1,3 +1,46 @@
+.section-scroller-chop {
+  overflow: hidden;
+  margin-bottom: -16px;
+}
+
+.section-scroller {
+  width: 100vw;
+  overflow-x: auto;
+}
+
+.scroller-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: calc(100vw * var(--num-card-groups-small));
+}
+
+.scroller-item {
+  width: 50vw;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .scroller-item {
+    width: 33.3333vw;
+  }
+
+  .scroller-wrap {
+    width: calc(100vw * var(--num-card-groups-med));
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .scroller-item {
+    width: 25vw;
+  }
+
+  .scroller-wrap {
+    width: calc(100vw * var(--num-card-groups-large));
+  }
+}
+
 .guest-box-1 {
   background-color: var(--color-primary);
   padding: 2em;
@@ -6,4 +49,11 @@
 .guest-box-2 {
   background-color: var(--color-accent);
   padding: 2em;
+}
+
+.section-header {
+  background-color: var(--color-accent);
+  color: #fff;
+  font-family: var(--font-secondary);
+  opacity: 50%;
 }
