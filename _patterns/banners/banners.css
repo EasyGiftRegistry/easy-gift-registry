@@ -14,3 +14,7 @@
 .icon-label:hover {
   color: #C26B86;
 }
+
+.banner-content {
+  margin-bottom: -16px;
+}
