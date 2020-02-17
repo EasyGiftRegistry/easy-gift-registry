@@ -7,3 +7,9 @@
 .icon-numbers {
   color: var(--color-primary);
 }
+
+.theme-text {
+  color: #fff;
+  letter-spacing: 0.1em;
+  font-family: var(--font-secondary);
+}
