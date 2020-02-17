@@ -1,0 +1,42 @@
+.section-scroller-chop {
+  overflow: hidden;
+  margin-bottom: -16px;
+}
+
+.section-scroller {
+  width: 100vw;
+  overflow-x: auto;
+}
+
+.scroller-wrap {
+  display: flex;
+  flex-wrap: nowrap;
+  width: calc(100vw * var(--num-card-groups-small));
+}
+
+.scroller-item {
+  width: 50vw;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .scroller-item {
+    width: 33.3333vw;
+  }
+
+  .scroller-wrap {
+    width: calc(100vw * var(--num-card-groups-med));
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .scroller-item {
+    width: 25vw;
+  }
+
+  .scroller-wrap {
+    width: calc(100vw * var(--num-card-groups-large));
+  }
+}
