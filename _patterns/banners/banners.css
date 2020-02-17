@@ -3,12 +3,18 @@
   left: 1em;
 }
 
+.banner-content {
+  color: #000;
+  background: rgba(255, 255, 255, 0.7);
+  width: 60%;
+}
+
 .theme-title {
   color: #fff;
 }
 
 .icon-label {
-  color: #fff;
+  color: var (--color-primary);
 }
 
 .icon-label:hover {
