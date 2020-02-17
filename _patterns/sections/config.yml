@@ -34,3 +34,14 @@ patterns:
     title: "Profile Registry: Graduation"
     description: |
       Used highlight graduation registry on the profile page.
+  theme-section:
+    title: "Theme Section"
+    description: |
+      This section is used to show a registry theme with the ability to scroll through the items included in the theme.
+    fields:
+      - name: heading
+        type: string
+        example: "Wedding"
+      - name: image
+        type: string
+        example: "wedding-theme.jpg"
