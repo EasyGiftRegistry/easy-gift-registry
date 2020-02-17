@@ -33,6 +33,9 @@ patterns:
       - name: heading
         type: string
         example: "Theme"
+      - name: url
+        type: url
+        example: "/profile/"
     title: "Add Card"
     description: |
       This type of card will be used when the user has the option to add the item to a registry. The addition symbol will act as a call to action for the user to add the item to their registry.
