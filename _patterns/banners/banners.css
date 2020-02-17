@@ -14,7 +14,7 @@
 }
 
 .icon-label {
-  color: var (--color-primary);
+  color: var(--color-primary);
 }
 
 .icon-label:hover {
