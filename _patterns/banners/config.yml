@@ -11,6 +11,10 @@ patterns:
     title: "Product banner"
     description: |
       The product banner shows the current product of what the user is currently viewing. This banner should only be used on the product page.
+    fields:
+      - name: image
+        type: string
+        example: "small-gift-box.jpg"
   theme-banner:
     title: "Theme banner"
     description: |

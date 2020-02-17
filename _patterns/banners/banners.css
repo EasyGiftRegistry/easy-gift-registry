@@ -28,3 +28,8 @@
 .banner-heading {
   letter-spacing: 0.02em;
 }
+
+.slogan-style {
+  font-weight: var(--weight-bold);
+  color: #fff;
+}
