@@ -26,14 +26,10 @@ patterns:
     title: "Search Item"
     description: |
       Used to collect cards for the search function of site.
-  profile-theme-section-birthday:
+  profile-theme-section:
     title: "Profile Registry: Birthday"
     description: |
       Used highlight birthday registry on the profile page.
-  profile-theme-section-grad:
-    title: "Profile Registry: Graduation"
-    description: |
-      Used highlight graduation registry on the profile page.
   theme-section:
     title: "Theme Section"
     description: |
