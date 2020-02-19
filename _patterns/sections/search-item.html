@@ -1,6 +1,8 @@
-{% assign theme_cards = site.products | where:"theme", include.theme %}
-  {% for card in theme_cards %}
-  <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4">
-    {% pattern cards/add-card image=card.image href=card.url %}
-  </div>
-{% endfor %}
+<div class="grid">
+  {% assign theme_cards = site.products | where:"theme", include.theme %}
+    {% for card in theme_cards %}
+    <div class="unit xs-1-2 s-1-2 m-1-3 l-1-4">
+      {% pattern cards/add-card image=card.image href=card.url %}
+    </div>
+    {% endfor %}
+</div>
