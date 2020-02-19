@@ -9,5 +9,5 @@ care:
   - "Relax your mind"
   - "Find your center"
 price: "$500.00"
-theme: "birthday"
+theme: "graduation"
 ---
