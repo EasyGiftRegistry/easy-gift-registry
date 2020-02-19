@@ -6,7 +6,7 @@ details: |
   French press that creates the finest level of coffee.
 care:
   - "Pure Coffee"
-  - "100% beans”
+  - "100% beans"
   - "Will stain your teeth"
 price: "$120.00"
 theme: "wedding"
