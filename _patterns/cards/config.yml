@@ -45,3 +45,11 @@ patterns:
         type: string
         example: "Theme"
     title: "Product Card"
+  guest-card:
+    fields:
+      - name: heading
+        type: string
+        example: "Zara Haas"
+      - name: text
+        type: string
+        example: "zhaas@gmail.com"
