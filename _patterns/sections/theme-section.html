@@ -9,7 +9,7 @@
       --num-card-groups-med:{{theme_cards|size|plus:1.0|divided_by:3.0|ceil}};
       --num-card-groups-large:{{theme_cards|size|plus:1.0|divided_by:4.0|ceil}};">
       <div class="scroller-item">
-        {% pattern cards/theme-card image=include.image heading=include.theme_title %}
+        {% pattern cards/theme-card image=include.image heading=include.theme_title theme=include.theme %}
       </div>
       {% for card in theme_cards %}
         <div class="scroller-item">
