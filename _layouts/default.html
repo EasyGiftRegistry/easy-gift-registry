@@ -17,11 +17,23 @@
   <meta property="og:description" content="A web application that makes gift giving and recieving easy.">
   <meta property="og:locale" content="en_CA">
 </head>
-<body>
 
-  {% pattern navigation/main-nav %}
-  {{content}}
-  {% pattern navigation/footer %}
+<ul class="skip-links">
+  <li><a href="#nav">Jump to navigation</a></li>
+  <li><a href="#main">Jump to main content</a></li>
+  <li><a href="#contentinfo">Jump to footer</a></li>
+</ul>
+
+<body>
+  <nav role="nav" id="nav" tabindex="0">
+    {% pattern navigation/main-nav %}
+  </nav>
+  <main role="main" id="main" tabindex="0">
+    {{content}}
+  </main>
+  <footer role="contentinfo" id="contentinfo" tabindex="0">
+    {% pattern navigation/footer %}
+  </footer>
 
 </body>
 </html>
