@@ -5,16 +5,16 @@
   </div>
 
   <div class="unit unit-xs-hidden unit-s-hidden unit-m-hidden l-1-2 xl-1-2 island">
-    <h2 class="pad-t product-name gutter-2">{{include.data.title}}</h2>
-      <h3 class="push-none mega gutter-2">Details</h3>
+    <h2 tabindex="0" class="pad-t product-name gutter-2">{{include.data.title}}</h2>
+      <h3 tabindex="0" class="push-none mega gutter-2">Details</h3>
       <p class="gutter-2">{{include.data.details}}</p>
-      <h3 class="push-none mega gutter-2">Care</h3>
+      <h3 tabindex="0" class="push-none mega gutter-2">Care</h3>
         <ul>
           {% for item in include.data.care %}
           <li class="card-list gutter-2">{{item}}</li>
           {% endfor %}
         </ul>
-      <h3 class="push-none mega gutter-2">Price</h3>
+      <h3 tabindex="0" class="push-none mega gutter-2">Price</h3>
         <p class="gutter-2 push-2">{{include.data.price}}</p>
       <div class="gutter-2 push-2 grid">
         <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
