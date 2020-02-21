@@ -1,7 +1,7 @@
 .navigation {
-  background-color: #eaeaea;
+  background-color: #ce86a0;
   vertical-align: middle;
-  color: var(--color-accent);
+  color: #fff;
 }
 
 .nav {
@@ -10,13 +10,13 @@
 }
 
 .navigation a {
-  color: var(--color-accent);
+  color: #fff;
   font-weight: 500;
 }
 
 .navigation a:hover {
   color: var(--color-secondary);
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .site-name {
@@ -26,6 +26,7 @@
 .search {
   font-family: var(--font-secondary);
   font-weight: 500;
+  border: 0px;
 }
 
 .icon-search svg {
