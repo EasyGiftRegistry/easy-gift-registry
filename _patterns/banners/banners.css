@@ -33,3 +33,13 @@
   font-weight: var(--weight-bold);
   color: #fff;
 }
+
+.back-arrow {
+  color: #fff;
+  font-weight: var(--weight-bold);
+}
+
+.back-arrow:hover {
+  color: var(--color-secondary);
+  ont-weight: var(--weight-bold);
+}

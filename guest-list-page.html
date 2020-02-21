@@ -1,27 +1,95 @@
 ---
 layout: default
-title: My Guest List · Easy Gift
+titleAfter: Gift Registry Web Application
+title: Guestlist
+meta: Invite guests to share and add to your registry.
 ---
 <div class="grid">
-  <div class="unit xs-1 s-1 m-1 l-1 text-center island-1-2">
-    <h1 class="push-0">Birthday's Guest List</h1>
+  <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t-2 tabindex="0">
+    <h2 class="nina push-2">Birthday Registry</h2>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4 pad-b-1-2">
-    {% pattern sections/guest-names name="Zara Haas" email="zhaas@gmail.com" %}
+  <div class="unit xs-1 s-1 m-1 l-1 push-none">
+    {% pattern sections/guest-names %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4 push-1-2">
-    {% pattern sections/guest-names name="Morgan Pearl" email="mpearl@gmail.com" %}
+  <div class="unit xs-1 s-1 m-1 l-1 text-center pad-t tabindex="0">
+    <h2 class="nina push-2">Graduation Registry</h2>
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4 pad-b-1-2">
-    {% pattern sections/guest-names name="Sabrina Thompson" email="sabthompson92@gmail.com" %}
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Zara Haas" text="zhaas@gmail.com" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 gutter-1-4 push-1-2">
-    {% pattern sections/guest-names name="Aria Marquez" email="aariam123@gmail.com" %}
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Hannah Nickels" text="hannah@gmail.com" %}
   </div>
-  <div class="unit xs-1 s-1 m-1 l-1 island-1-2 text-center">
-    <div class="unit xs-1 s-1 m-1 l-1 push-1-2">
-      {% pattern buttons/basic url="#" text="Add Guest" %}
-      {% pattern buttons/btn-light url="#" text="Delete Guestlist" %}
-    </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Amanda Lees" text="lessamanda@rogers.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="James Reader" text="jreader@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push push">
+    {% pattern cards/guest-card heading="Yvonne Adams" text="yadams@live.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="John Smith" text="johnsmith@hotmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Kathy Burke" text="kathy.burke@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="Mike Lam" text="Lam-Mike@yahoo.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Rebecca Young" text="YoungR@live.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Robert Townes" text="R-Townes@sympatico.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Tom Graves" text="Tom.Graves@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="Jessica Peters" text="jreader@gmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Zara Haas" text="zhaas@gmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Hannah Nickels" text="hannah@gmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Amanda Lees" text="lessamanda@rogers.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="James Reader" text="jreader@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Yvonne Adams" text="yadams@live.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="John Smith" text="johnsmith@hotmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Kathy Burke" text="kathy.burke@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="Mike Lam" text="Lam-Mike@yahoo.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push ">
+    {% pattern cards/guest-card heading="Rebecca Young" text="YoungR@live.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Robert Townes" text="R-Townes@sympatico.ca" %}
+  </div>
+  <div class="unit xs-1 s-1-2 m-1-3 l-1-4 push">
+    {% pattern cards/guest-card heading="Tom Graves" text="Tom.Graves@outlook.com" %}
+  </div>
+  <div class="unit xs-1 s-1-2 unit-m-hidden l-1-4 push">
+    {% pattern cards/guest-card heading="Jessica Peters" text="jreader@gmail.com" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center push-1-2 pad-t">
+    {% pattern buttons/basic url="/profile/" text="Edit Guestlist" %}
+  </div>
+  <div class="unit xs-1 s-1 m-1-2 l-1-2 text-center push-2 pad-t">
+    {% pattern buttons/basic url="/profile/" text="Delete Guestlist" %}
   </div>
 </div>

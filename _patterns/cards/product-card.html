@@ -1,10 +1,10 @@
 <div class="grid">
 
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 embed embed-3by1 block">
+  <div class="unit unit-xs-hidden unit-s-hidden unit-m-hidden l-1-2 xl-1-2 embed embed-3by2 block">
     <img class="img-flex embed-item" src="/images/{{include.data.image}}" alt="">
   </div>
 
-  <div class="unit xs-1 s-1 m-1 l-1-2 xl-1-2 island">
+  <div class="unit unit-xs-hidden unit-s-hidden unit-m-hidden l-1-2 xl-1-2 island">
     <h2 class="pad-t product-name gutter-2">{{include.data.title}}</h2>
       <h3 class="push-none mega gutter-2">Details</h3>
       <p class="gutter-2">{{include.data.details}}</p>
@@ -17,10 +17,36 @@
       <h3 class="push-none mega gutter-2">Price</h3>
         <p class="gutter-2 push-2">{{include.data.price}}</p>
       <div class="gutter-2 push-2 grid">
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
           {% pattern buttons/basic url="/profile/" text="Add to Cart" %}
         </div>
-        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
+          {% pattern buttons/basic url="/profile/" text="Find on Amazon" %}
+        </div>
+      </div>
+  </div>
+
+  <div class="unit xs-1 s-1 m-1 unit-l-hidden unit-xl-hidden embed embed-1by1 block">
+    <img class="img-flex embed-item" src="/images/{{include.data.image}}" alt="">
+  </div>
+
+  <div class="unit xs-1 s-1 m-1 unit-l-hidden unit-xl-hidden1 island">
+    <h2 class="pad-t product-name gutter-2">{{include.data.title}}</h2>
+      <h3 class="push-none mega gutter-2">Details</h3>
+      <p class="gutter-2">{{include.data.details}}</p>
+      <h3 class="push-none mega gutter-2">Care</h3>
+        <ul>
+          {% for item in include.data.care %}
+          <li class="card-list gutter-2">{{item}}</li>
+          {% endfor %}
+        </ul>
+      <h3 class="push-none mega gutter-2">Price</h3>
+        <p class="gutter-2 push-2">{{include.data.price}}</p>
+      <div class="gutter-2 push-2 grid">
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
+          {% pattern buttons/basic url="/profile/" text="Add to Cart" %}
+        </div>
+        <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 xl-1-2 island-1-2 text-center">
           {% pattern buttons/basic url="/profile/" text="Find on Amazon" %}
         </div>
       </div>

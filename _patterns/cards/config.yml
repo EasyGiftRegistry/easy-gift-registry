@@ -45,3 +45,24 @@ patterns:
         type: string
         example: "Theme"
     title: "Product Card"
+    description: |
+      This type of card is used to highlight a product and provide the user with product details.
+  guest-card:
+    fields:
+      - name: heading
+        type: string
+        example: "Zara Haas"
+      - name: text
+        type: string
+        example: "zhaas@gmail.com"
+    title: "Guest Card"
+    description: |
+      This type of card is used show guest details within a person's registry.
+  profile-card:
+    title: "Profile Card"
+    description: |
+      This type of card is to show a user's profile. This includes user's location and an optional photo.
+  instructional-card:
+    title: "Instructional Card"
+    description: |
+      This type of card is to teach the user how to use the site and showcase the site's features.
