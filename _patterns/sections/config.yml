@@ -20,9 +20,9 @@ patterns:
     description: |
       Used to collect cards for the search function of site.
   profile-theme-section:
-    title: "Profile Registry: Birthday"
+    title: "Profile Images"
     description: |
-      Used highlight birthday registry on the profile page.
+      Used highlight birthday and graduation registry on the profile page.
   theme-section:
     title: "Theme Section"
     description: |

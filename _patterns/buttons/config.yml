@@ -14,32 +14,11 @@ patterns:
       - name: text
         type: string
         example: "Add to List"
-  btn-ghost:
-    title: "Ghost"
-    description: |
-      Ghost buttons are buttons with a border. It is only used occasionally and whenever it is necessary.
-    fields:
-      - name: url
-        type: url
-        example: "/profile/"
-      - name: text
-        type: string
-        example: "Add to List"
-  btn-light:
-    title: "Light"
-    description: |
-      Light buttons use lighter colour than basic buttons. Use it when the basic buttons doesn't have enough contrast.
-    fields:
-      - name: url
-        type: url
-        example: "/profile/"
-      - name: text
-        type: string
-        example: "Add to List"
   btn-white:
     title: "White"
     description: |
       White buttons are used when the light button doesn't have enough contrast.
+    background: "--color-accent"
     fields:
       - name: url
         type: url

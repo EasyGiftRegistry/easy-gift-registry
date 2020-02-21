@@ -1,0 +1,13 @@
+title: "Navigation"
+description:
+  Navigation is used to help users locate elements within the site and provide hierarchy of information. It is also used for accessibility purposes as users can quickly jump through menus without visual indicators.
+
+patterns:
+  main-nav:
+    title: "Main Navigation"
+    description:
+      The main navigation helps users find content within the site. This navigation is used specifically to push the page to selected section on the homepage and to navigate users back to the index when on a project page.
+  footer:
+    title: "Footer Navigation"
+    description: |
+      Footers are used to house social media links and copyright information at the bottom every page. White icons are showcased on a secondary colored background.
